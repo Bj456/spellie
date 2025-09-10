@@ -15,6 +15,7 @@
   "homepage": "https://github.com/canadianveggie/spellie#readme",
   "scripts": {
     "start": "python -m SimpleHTTPServer",
+    "build": "echo 'Static site build step - nothing to compile'",
     "test": "jest --verbose --watch",
     "test:ci": "jest",
     "typecheck": "tsc --noEmit",
